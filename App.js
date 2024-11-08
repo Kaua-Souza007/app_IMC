@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import { TextInput } from 'react-native-web';
+import { TextInput } from 'react-native';
 
 export default function App() {
   const [peso,setPeso] = useState(0); 
